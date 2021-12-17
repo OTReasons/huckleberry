@@ -10,3 +10,50 @@ body {
 }
 
 /* Add styles here! */
+
+html, body {
+  height: 100%;
+}
+
+main, header {
+  min-height: 50%;
+  padding: 96px 0;
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  border-top: 8px solid hsl(0deg, 0%, 30%);
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.max-width-wrapper {
+  max-width: 526px;
+  margin: 0 auto;
+}
+
+.title {
+  margin-bottom: 48px;
+}
+
+.intro-chunk {
+  padding-left: 16px;
+  padding-right: 256px;
+}
+
+.indented-heading {
+  margin-top: 0;
+  margin-left: -32px;
+  padding: 16px;
+  padding-left: 32px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+}
+
+.card {
+  padding: 8px 16px 16px;
+  background-color: white;
+  border-bottom: 8px solid hsl(0deg, 0%, 30%);
+}
